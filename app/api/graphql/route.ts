@@ -73,7 +73,7 @@ export async function POST(request: NextRequest) {
                 variables
             });
 
-            // Log the full result to check for unexpected response structure
+           
             console.log("DEBUG 5: Mutation result", result);
         } else {
             console.log("DEBUG 6: Executing Query:", query);
