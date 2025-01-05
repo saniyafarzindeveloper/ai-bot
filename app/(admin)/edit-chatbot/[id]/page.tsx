@@ -71,8 +71,8 @@ export default function EditChatbot({
           <Avatar seed={chatbotName} />
           <form>
             <Input value={chatbotName} 
-            onChange={(e) => setChatbotName(e.target.value)}
-            placeholder={chatbotName} //null returned
+            // onChange={(e) => setChatbotName(e.target.value)}
+            // placeholder={chatbotName} //null returned
             className="w-full border-none bg-transparent text-xl font-bold"
             required
             />
